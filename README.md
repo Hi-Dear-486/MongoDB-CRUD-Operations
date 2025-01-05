@@ -10,9 +10,11 @@
   src="https://img.shields.io/badge/Next.js-0070F3?style=for-the-badge&logo=next.js&logoColor=white"
   alt="Next.js"
 />
+    <img src="https://img.shields.io/badge/ShadCN-UI%20Components-red?style=for-the-badge&logo=react&logoColor=white" alt="ShadCN" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
     <img src="https://img.shields.io/badge/React_Hook_Form-v7.44.2-blue?style=for-the-badge&logo=reacthookform&logoColor=white" alt="React Hook Form" />
     <img src="https://img.shields.io/badge/Zod-Type%20Validation-blue?style=for-the-badge&logo=typescript&logoColor=white" alt="Zod" />
+    <img src="https://img.shields.io/badge/AG%20Grid-Data%20Table-darkblue?style=for-the-badge&logo=react&logoColor=white" alt="AG Grid" />
     <img src="https://img.shields.io/badge/-Express.js-lightgrey?style=for-the-badge&logo=express&logoColor=black" alt="express" />
     <img src="https://img.shields.io/badge/-MongoDB-green?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb" />
 

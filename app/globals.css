@@ -70,3 +70,20 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.gray {
+  background-color: rgb(92, 98, 100);
+}
+
+.ag-header-cell-filter-button {
+  background-color: white !important;
+  color: gray !important;
+  border-radius: 5px !important;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 4px solid white;
+}
+
+.ag-header-cell-filter-button:hover {
+  background-color: white !important;
+}

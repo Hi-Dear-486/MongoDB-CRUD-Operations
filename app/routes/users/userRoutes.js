@@ -3,7 +3,6 @@ import express from "express";
 
 const router = express.Router();
 const server = express();
-
 // Middleware
 server.use(express.json());
 

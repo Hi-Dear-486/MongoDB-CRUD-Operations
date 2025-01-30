@@ -10,7 +10,7 @@ const handle = app.getRequestHandler();
 
 dotenv.config();
 
-const PORT = 8000 || 4000;
+const PORT = process.env.PORT || 4000;
 console.log("🚀 ~ PORT:", PORT);
 
 app.prepare().then(async () => {
@@ -20,7 +20,7 @@ app.prepare().then(async () => {
 
   server.use(
     cors({
-      origin: ["http://localhost:8000"],
+      origin: [process.env.FRONTEND_URL],
       methods: ["GET", "POST", "PUT", "DELETE"],
       credentials: true,
     })
@@ -41,8 +41,8 @@ app.prepare().then(async () => {
     return handle(req, res);
   });
 
-  server.listen(8000, (err) => {
+  server.listen(PORT, (err) => {
     if (err) throw err;
-    console.log(`> Ready on http://localhost:${8000}`);
+    console.log(`> Ready on http://localhost:${PORT}`);
   });
 });
